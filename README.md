@@ -125,7 +125,11 @@ CI/CD is a continuous method of software development, where you continuously bui
 ![image](https://github.com/lucasmargui/React_Software_Lifecycle/assets/157809964/7653af73-69eb-42bf-b186-b5c98ae68f0b)
 
 
-  </details>
+</details>
+
+## Docker
+
+
   
 
 
