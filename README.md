@@ -5,8 +5,13 @@
 ## Separate Environments
 
 ### Code Merge
+
+Merging code in Git is a common operation used to combine changes from different branches. Here's a basic outline of how to merge code using Git:
   <details>
   <summary>Click to show content</summary>
+    
+<br>
+    
 1.	Fork the Repository: If you haven't already, fork the repository you want to contribute to. This creates a copy of the repository under your GitHub account.
 
 ![image](https://github.com/lucasmargui/React_Software_Lifecycle/assets/157809964/b2abe3ca-21eb-4530-8b25-fc27b6db2432)
@@ -98,6 +103,9 @@ git push origin feature-branch
 
 CI/CD is a continuous method of software development, where you continuously build, test, deploy, and monitor iterative code changes.
 
+  <details>
+  <summary>Click to show content</summary>
+
 #### Import project github to gitlab
 
 ![image](https://github.com/lucasmargui/React_Software_Lifecycle/assets/157809964/27c9fbdf-0079-4e10-9f9d-fc1e289c27a6)
@@ -117,20 +125,7 @@ CI/CD is a continuous method of software development, where you continuously bui
 ![image](https://github.com/lucasmargui/React_Software_Lifecycle/assets/157809964/7653af73-69eb-42bf-b186-b5c98ae68f0b)
 
 
+  </details>
+  
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
