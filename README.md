@@ -5,7 +5,8 @@
 ## Separate Environments
 
 ### Code Merge
-
+  <details>
+  <summary>Click to show content</summary>
 1.	Fork the Repository: If you haven't already, fork the repository you want to contribute to. This creates a copy of the repository under your GitHub account.
 
 ![image](https://github.com/lucasmargui/React_Software_Lifecycle/assets/157809964/b2abe3ca-21eb-4530-8b25-fc27b6db2432)
@@ -91,6 +92,29 @@ git push origin feature-branch
 <br>
 14.	Sync Your Fork: Periodically, sync your fork with the original repository to ensure your local copy is up to date. You can do this by fetching changes from the upstream repository and merging them into your local branch.
 
+ </details>
+
+### GitLab CI/CD
+
+CI/CD is a continuous method of software development, where you continuously build, test, deploy, and monitor iterative code changes.
+
+#### Import project github to gitlab
+
+![image](https://github.com/lucasmargui/React_Software_Lifecycle/assets/157809964/27c9fbdf-0079-4e10-9f9d-fc1e289c27a6)
+
+
+#### Create a .gitlab-ci.yml file
+
+![image](https://github.com/lucasmargui/React_Software_Lifecycle/assets/157809964/1068e24b-5824-4b17-9f55-f29e4d1dcfb4)
+
+
+#### Status of your pipeline and jobs 
+
+![image](https://github.com/lucasmargui/React_Software_Lifecycle/assets/157809964/72873793-cb84-40b0-a252-d58399bff2d1)
+
+![image](https://github.com/lucasmargui/React_Software_Lifecycle/assets/157809964/482f22f6-0e51-4183-a145-2c3c0867c619)
+
+![image](https://github.com/lucasmargui/React_Software_Lifecycle/assets/157809964/7653af73-69eb-42bf-b186-b5c98ae68f0b)
 
 
 
