@@ -129,6 +129,57 @@ CI/CD is a continuous method of software development, where you continuously bui
 
 ## Docker
 
+Docker is an operating system for containers. Similar to how a virtual machine virtualizes server hardware, containers virtualize the operating system of a server.
+
+  <details>
+  <summary>Click to show content</summary>
+    
+  <br>
+
+### Create a Dockerfile
+
+![image](https://github.com/lucasmargui/React_Software_Lifecycle/assets/157809964/a7c39314-d46d-4fd5-8278-8cc03bdf2cab)
+
+#### Configure Dockerfile
+
+![image](https://github.com/lucasmargui/React_Software_Lifecycle/assets/157809964/c3c152fc-e632-4d90-bac4-6eea9be71f38)
+
+- "FROM node:20-alpine" is the version of node
+- “WORKDIR /APP” is the working directory
+- “COPY package*.json .” means we are copying all files starting with package and ending with .json and copying to . (dot), which represents the destination, and the destination '.' is /app
+- “COPY tsconfig.json .” copying tsconfig to /app
+  “COPY . .” is the same as copying everything from the current directory to the destination /app, but we don't want to copy node_modules, so we create a .dockerignore
+- “RUN npm install”
+
+We can copy everything from the directory to our WORKDIR /app
+
+- “EXPOSE 5173” = the port we will be working with in this Docker image
+
+- “CMD ["npm", "run", "dev"]” = command in the terminal to execute the project
+
+  
+
+### Build the image
+
+```
+docker build -t react-app-dockerize:dev .
+```
+
+### View the images
+
+```
+docker images
+```
+
+### Run the Docker
+
+```
+docker run -p react-app-dockerize:dev
+```
+
+ </details>
+  
+
 
   
 
