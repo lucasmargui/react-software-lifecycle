@@ -4,6 +4,9 @@
 
 ## Separate Environments
 
+![image](https://github.com/lucasmargui/React_Software_Lifecycle/assets/157809964/38550b99-fc2e-46e5-bf37-62f8ebc743fc)
+
+
 ### Code Merge
 
 Merging code in Git is a common operation used to combine changes from different branches. Here's a basic outline of how to merge code using Git:
