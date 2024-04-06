@@ -99,12 +99,19 @@ git push origin feature-branch
 
  </details>
 
-### GitLab CI/CD
+### Paradigms CI/CD
+
+- Continuous Integration (CI): automate compilation, testing, and static code analysis whenever new changes are committed to the code repository. Examples of CI tools include Jenkins, CircleCI, and GitLab CI.
+- Continuous Deployment (CD): Implement CD pipelines to automate the deployment of your applications to test and production environments after successful completion of CI tests. Tools like AWS CodeDeploy, Azure DevOps, and Spinnaker can be used for CD.
+
+<details>
+<summary>Click to show content</summary>
+  
+### GitLab 
 
 CI/CD is a continuous method of software development, where you continuously build, test, deploy, and monitor iterative code changes.
 
-  <details>
-  <summary>Click to show content</summary>
+
 
 #### Import project github to gitlab
 
